@@ -1,0 +1,144 @@
+body {
+    color : white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 3px 2px 5px rgba(255, 255, 255, 0.341);
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    color:white;
+    border: 1px white solid;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+h2, h1 {
+    margin : 0;
+}
+
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /* 다른 요소 위에 표시되도록 z-index 설정 */
+    line-height: 0.5;
+}
+
+#dates {
+    font-size: 150%;
+    padding: 10px;
+}
+
+#clock {
+    font-size: 400%;
+    padding-bottom: 50px;
+}
+
+#greeting {
+    font-size : 70px;
+    line-height: 0.5;
+    margin: 150px;
+}
+/*form*/
+#login-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 70%;
+    align-items: center;
+    justify-content: center;
+    padding : 30px;
+}
+#login-form input {
+    width: 700px;
+    height: 50px;
+    background-color: transparent;
+    border: white;
+    text-align: center;
+    font-family: "Cormorant", serif;
+    font-size : 50px;
+    color : white;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+}
+
+#login-form input::placeholder{
+    color: white;
+}
+
+#login-form button {
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff2a;
+    border: white 1px solid;
+    text-align: center;
+    font-family: "Cormorant", serif;
+    border-radius: 90%;
+    background-color: #ffffff00;
+    font-size : 15px;
+    color : white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/*todo*/
+#todo-form input {
+    width: 300px;
+    height: 25px;
+    background-color: #828282bf;
+    border: white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Cormorant", serif;
+    font-size : 20px;
+    color : white;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+    
+}
+
+#todo-form input::placeholder{
+    color: white;
+}
+
+/*quote*/
+#quote {
+    color :rgb(236, 236, 236);
+}
+#quote span:first-of-type{
+    font-size: 30px;
+}
+
+/*weather*/
+#weather {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*background image*/
+img {
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:100%;
+}
