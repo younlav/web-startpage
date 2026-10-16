@@ -1,4 +1,4 @@
-## My Oldest Web Page with no AI
+## My Oldest Web Page without AI
 
 !Please click to use my page!
 <https://younlav.github.io/web-startpage/>
